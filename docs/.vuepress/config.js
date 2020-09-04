@@ -1,36 +1,38 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'meta description of site',
+  title: 'I Wish I Knew That',
+  description: 'All the things we weren\'t taught at school that we really needed for life.',
   // head: [
   //   ['link', {
   //     rel: 'icon',
   //     href: '/logo.png'
   //   }]
   // ]
+  theme: 'default-prefers-color-scheme',
   themeConfig: {
     nav: [{
         text: 'Home',
         link: '/'
       },
       {
-        text: 'Guide',
-        link: '/home/'
+        text: 'Start',
+        link: '/topics/start/'
       },
       {
-        text: 'External',
-        link: 'https://google.com'
-      },
-      {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
-        items: [{
-            text: 'Chinese',
-            link: '/language/chinese/'
+        text: 'Topics',
+        ariaLabel: 'Topics Menu',
+        items: [
+          {
+            text: 'Money',
+            link: '/topics/money/'
           },
           {
-            text: 'Japanese',
-            link: '/language/japanese/'
-          }
+            text: 'Politics',
+            link: '/topics/politics/'
+          },
+          {
+            text: 'Law',
+            link: '/topics/law/'
+          },
         ]
       }
     ],
@@ -54,5 +56,13 @@ module.exports = {
       editLinks: true,
       // custom text for edit link. Defaults to "Edit this page"
       editLinkText: 'Help us improve this page!'
-  }
+  },
+  plugins: [
+    '@vuepress/active-header-links',
+    '@vuepress/plugin-back-to-top',
+    'vuepress-plugin-table-of-contents',
+    'sitemap',
+    'seo',
+    'authors'
+  ]
 }

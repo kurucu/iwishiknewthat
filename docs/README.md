@@ -1,35 +1,23 @@
 ---
-title: I wish I knew that
-# description:
+home: true
+heroImage: /reading_book.svg
+heroText: I Wish I Knew That
+tagline: The things you're not taught at school.
+actionText: Get Started →
+actionLink: /topics/start/
+features:
+- title: Easy to Read
+  details: The topics have been designed to be easy to browse and skim through, so you can choose what appeals to you.
+- title: Thorough
+  details: There is breadth and depth - read in to each topic as far as you need.
+- title: Collaborative
+  details: The project is open source and open to public contribution. It grows to cover what you need.
 ---
 
-[[toc]]
+The project welcomes contributions from everyone, whether they are refined words, content, ideas, website design or financial contributions. Whether you contribute or not, everyone is free to use the information contained here.
 
-# {{ $frontmatter.title }}
-
-This public project aims to provide an insight to all the things we're not taught at school but that are big aspects of every day life.
-
-Every topic has an easy to read introduction, so you can skim through and see why it might be important to read more. If you want to follow up, the principles of the topic are discussed and resources either provided or linked to.
-
-We're not aiming to reproduce the excellent tools available around the world, but instead provide an easy index to get you started.
-
-The site should suit anyone from the USA, Canada, the UK, Australia or New Zealand and probably many more. Where local knowledge is important, we try to highlight that.
-
-
-::: tip
-This is a tip
-:::
-
-::: warning
-This is a warning
-:::
-
-::: danger STOP
-Danger zone, do not proceed
-:::
-
-::: details Click me to view the code
-```js
-console.log('Hello, VuePress!')
-```
-:::
+You are also free to post the information on other sites, provided that:
+ * You credit I Wish I Knew That next to the content
+ * The credit is large and clear
+ * The credit includes the project name (I Wish I Knew That) and the website address (https://iwishiknewthat.vercel.app)
+ * The user can follow that link or an adjacent one back to this page.
