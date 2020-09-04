@@ -1,0 +1,16 @@
+{
+  "name": "iwishiknewthat",
+  "version": "0.0.1",
+  "description": "All the things I wish I knew",
+  "main": "index.js",
+  "repository": "https://github.com/kurucu/iwishiknewthat",
+  "author": "Elliot Ali <git@elliotali.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
